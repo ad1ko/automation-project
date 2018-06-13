@@ -71,7 +71,7 @@ public class DiceJobSearch {
 		dr.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		
 		dr.close();
-		System.out.println("test completed at "+LocalDateTime.now());
+		System.out.println("Test completed at "+LocalDateTime.now());
 		
 
 		
